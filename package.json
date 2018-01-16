@@ -1,0 +1,20 @@
+{
+  "name": "gcloudvision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaon Debnath",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^0.14.0",
+    "aws-sdk": "^2.181.0",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.3.0",
+    "s3fs": "^2.5.0"
+  }
+}
