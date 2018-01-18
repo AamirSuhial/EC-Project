@@ -1,0 +1,321 @@
+//AWS rekognition BenchMarking usinng Apache HTTP Server.
+
+//==============Object detection=========== 
+
+Server Software:        Server
+Server Hostname:        console.aws.amazon.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        console.aws.amazon.com
+
+Document Path:          /rekognition/home?region=us-east-1#/label-detection
+Document Length:        989 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.135 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      206900 bytes
+HTML transferred:       98900 bytes
+Requests per second:    16.30 [#/sec] (mean)
+Time per request:       613.531 [ms] (mean)
+Time per request:       61.353 [ms] (mean, across all concurrent requests)
+Transfer rate:          32.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      358  428  91.4    409    1052
+Processing:   131  163  34.7    155     361
+Waiting:      131  161  33.5    155     361
+Total:        492  590  96.9    571    1221
+
+Percentage of the requests served within a certain time (ms)
+  50%    571
+  66%    586
+  75%    601
+  80%    614
+  90%    650
+  95%    668
+  98%   1160
+  99%   1221
+ 100%   1221 (longest request)
+ aamirs-air:~ aamirsuhialmir$ 
+===================scene detection=========================
+
+Server Software:        Server
+Server Hostname:        console.aws.amazon.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        console.aws.amazon.com
+
+Document Path:          /rekognition/home?region=us-east-1#/label-detection
+Document Length:        989 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.644 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      206900 bytes
+HTML transferred:       98900 bytes
+Requests per second:    15.05 [#/sec] (mean)
+Time per request:       664.404 [ms] (mean)
+Time per request:       66.440 [ms] (mean, across all concurrent requests)
+Transfer rate:          30.41 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      358  477 106.1    444     951
+Processing:   128  169  40.4    158     341
+Waiting:      128  169  40.3    157     341
+Total:        499  646 115.0    615    1094
+
+Percentage of the requests served within a certain time (ms)
+  50%    615
+  66%    650
+  75%    724
+  80%    765
+  90%    823
+  95%    904
+  98%    924
+  99%   1094
+ 100%   1094 (longest request)
+aamirs-air:~ aamirsuhialmir$ 
+
+ ================I=mage Moderation=======
+ Server Software:        Server
+Server Hostname:        console.aws.amazon.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        console.aws.amazon.com
+
+Document Path:          /rekognition/home?region=us-east-1#/image-moderation
+Document Length:        989 bytes
+
+Concurrency Level:      10
+Time taken for tests:   5.805 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      206900 bytes
+HTML transferred:       98900 bytes
+Requests per second:    17.23 [#/sec] (mean)
+Time per request:       580.484 [ms] (mean)
+Time per request:       58.048 [ms] (mean, across all concurrent requests)
+Transfer rate:          34.81 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      347  417  36.9    408     552
+Processing:   134  151  17.9    144     253
+Waiting:      133  151  17.9    144     252
+Total:        482  569  45.3    557     753
+
+Percentage of the requests served within a certain time (ms)
+  50%    557
+  66%    579
+  75%    588
+  80%    597
+  90%    643
+  95%    657
+  98%    695
+  99%    753
+ 100%    753 (longest request)
+aamirs-air:~ aamirsuhialmir$ 
+============================facial analyisis==================
+Server Software:        Server
+Server Hostname:        console.aws.amazon.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        console.aws.amazon.com
+
+Document Path:          /rekognition/home?region=us-east-1#/face-detection
+Document Length:        989 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.751 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      206900 bytes
+HTML transferred:       98900 bytes
+Requests per second:    14.81 [#/sec] (mean)
+Time per request:       675.129 [ms] (mean)
+Time per request:       67.513 [ms] (mean, across all concurrent requests)
+Transfer rate:          29.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      349  465 156.9    418    1588
+Processing:   131  188 133.2    153    1160
+Waiting:      131  186 132.6    153    1160
+Total:        497  653 210.3    581    1776
+
+Percentage of the requests served within a certain time (ms)
+  50%    581
+  66%    610
+  75%    642
+  80%    672
+  90%    904
+  95%   1080
+  98%   1555
+  99%   1776
+ 100%   1776 (longest request)
+aamirs-air:~ aamirsuhialmir$
+======================Celibrity Recognition==============
+Server Software:        Server
+Server Hostname:        console.aws.amazon.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        console.aws.amazon.com
+
+Document Path:          /rekognition/home?region=us-east-1#/celebrity-detection
+Document Length:        989 bytes
+
+Concurrency Level:      10
+Time taken for tests:   5.813 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      206900 bytes
+HTML transferred:       98900 bytes
+Requests per second:    17.20 [#/sec] (mean)
+Time per request:       581.346 [ms] (mean)
+Time per request:       58.135 [ms] (mean, across all concurrent requests)
+Transfer rate:          34.76 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      345  405 117.0    380    1453
+Processing:   126  153  49.5    141     476
+Waiting:      126  153  48.7    141     475
+Total:        484  558 124.2    526    1588
+
+Percentage of the requests served within a certain time (ms)
+  50%    526
+  66%    555
+  75%    563
+  80%    574
+  90%    648
+  95%    749
+  98%    866
+  99%   1588
+ 100%   1588 (longest request)
+aamirs-air:~ aamirsuhialmir$ 
+
+======================Face Comparision================
+
+Server Software:        Server
+Server Hostname:        console.aws.amazon.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        console.aws.amazon.com
+
+Document Path:          /rekognition/home?region=us-east-1#/face-comparison
+Document Length:        989 bytes
+
+Concurrency Level:      10
+Time taken for tests:   5.742 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      206900 bytes
+HTML transferred:       98900 bytes
+Requests per second:    17.42 [#/sec] (mean)
+Time per request:       574.187 [ms] (mean)
+Time per request:       57.419 [ms] (mean, across all concurrent requests)
+Transfer rate:          35.19 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      341  401  35.7    392     517
+Processing:   127  144  32.9    135     356
+Waiting:      127  143  31.1    135     356
+Total:        472  544  46.8    536     776
+
+Percentage of the requests served within a certain time (ms)
+  50%    536
+  66%    550
+  75%    564
+  80%    569
+  90%    595
+  95%    631
+  98%    737
+  99%    776
+ 100%    776 (longest request)
+aamirs-air:~ aamirsuhialmir$
+============================Text in image=====================
+
+Server Software:        Server
+Server Hostname:        console.aws.amazon.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        console.aws.amazon.com
+
+Document Path:          /rekognition/home?region=us-east-1#/text-detection
+Document Length:        989 bytes
+
+Concurrency Level:      10
+Time taken for tests:   7.597 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      206900 bytes
+HTML transferred:       98900 bytes
+Requests per second:    13.16 [#/sec] (mean)
+Time per request:       759.709 [ms] (mean)
+Time per request:       75.971 [ms] (mean, across all concurrent requests)
+Transfer rate:          26.60 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      358  551 265.7    465    2328
+Processing:   129  176  56.7    158     476
+Waiting:      129  176  56.7    158     476
+Total:        491  726 285.3    639    2582
+
+Percentage of the requests served within a certain time (ms)
+  50%    639
+  66%    731
+  75%    789
+  80%    825
+  90%    955
+  95%   1134
+  98%   1905
+  99%   2582
+ 100%   2582 (longest request)
+aamirs-air:~ aamirsuhialmir$
+
+==================video analysis===============
+Server Software:        Server
+Server Hostname:        console.aws.amazon.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        console.aws.amazon.com
+
+Document Path:          /rekognition/home?region=us-east-1#/video-analysis
+Document Length:        989 bytes
+
+Concurrency Level:      10
+Time taken for tests:   5.937 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      206900 bytes
+HTML transferred:       98900 bytes
+Requests per second:    16.84 [#/sec] (mean)
+Time per request:       593.727 [ms] (mean)
+Time per request:       59.373 [ms] (mean, across all concurrent requests)
+Transfer rate:          34.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      351  407  35.6    399     515
+Processing:   130  162  43.1    148     366
+Waiting:      130  160  42.7    148     366
+Total:        485  569  53.7    561     773
+
+Percentage of the requests served within a certain time (ms)
+  50%    561
+  66%    582
+  75%    591
+  80%    594
+  90%    636
+  95%    658
+  98%    768
+  99%    773
+ 100%    773 (longest request)
+aamirs-air:~ aamirsuhialmir$ 
