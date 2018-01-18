@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "aws-sdk": ">= 2.0.9",
+        "node-uuid": ">= 1.4.1",
+        "@google-cloud/storage": "^1.5.2",
+        "@google-cloud/vision": "^0.14.0",
+        "express": "^4.16.2",
+        "express-fileupload": "^0.3.0",
+        "google-cloud": "^0.57.0",
+        "s3fs": "^2.5.0"
+    }
+}
