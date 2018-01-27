@@ -15,6 +15,9 @@ There is an output text where are some result.
 
 ## AWS Rekognition Benchmark
 pip install bot3
+
 aws configure
+
 run python AWSLabelDetection.py or
+
 python AWSFaceDetection.py
