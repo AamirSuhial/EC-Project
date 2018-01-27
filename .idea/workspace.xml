@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a465581-7125-4e21-acf2-fcc172e1194d" name="Default" comment="" />
+    <list default="true" id="1a465581-7125-4e21-acf2-fcc172e1194d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/FaceDetection.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LogoDetection.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ObjectDetection.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TextDetection.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/output" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +24,7 @@
       <file leaf-file-name="vision.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vision.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="376">
               <caret line="123" column="54" lean-forward="false" selection-start-line="109" selection-start-column="4" selection-end-line="123" selection-end-column="54" />
               <folding>
                 <element signature="e#611#620#0" expanded="true" />
@@ -26,43 +33,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextDetection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TextDetection.py">
+      <file leaf-file-name="AWSLabelDetection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AWSLabelDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+            <state relative-caret-position="-504">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GCVFaceDetection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCVFaceDetection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="82" column="44" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogoDetection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LogoDetection.py">
+      <file leaf-file-name="GCVLabelDetection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCVLabelDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FaceDetection.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FaceDetection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1183">
-              <caret line="92" column="74" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectDetection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ObjectDetection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="592">
+              <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="30" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AWSFaceDetection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AWSFaceDetection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +102,11 @@
         <option value="$PROJECT_DIR$/vision.py" />
         <option value="$PROJECT_DIR$/FaceDetection.py" />
         <option value="$PROJECT_DIR$/LogoDetection.py" />
-        <option value="$PROJECT_DIR$/TextDetection.py" />
         <option value="$PROJECT_DIR$/ObjectDetection.py" />
+        <option value="$PROJECT_DIR$/TextDetection.py" />
+        <option value="$PROJECT_DIR$/AWSLabelDetection.py" />
+        <option value="$PROJECT_DIR$/GCVFaceDetection.py" />
+        <option value="$PROJECT_DIR$/AWSFaceDetection.py" />
       </list>
     </option>
   </component>
@@ -103,10 +117,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="130" />
-    <option name="y" value="41" />
-    <option name="width" value="1275" />
-    <option name="height" value="732" />
+    <option name="x" value="151" />
+    <option name="y" value="-4" />
+    <option name="width" value="1273" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,6 +149,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -199,8 +213,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="41" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -208,7 +221,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20204082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17250673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2458221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -259,6 +272,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vision.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2196">
+          <caret line="123" column="54" lean-forward="false" selection-start-line="109" selection-start-column="4" selection-end-line="123" selection-end-column="54" />
+          <folding>
+            <element signature="e#611#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogoDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="92" column="74" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2628">
           <caret line="146" column="113" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="146" selection-end-column="113" />
           <folding>
@@ -271,23 +326,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="69" column="71" lean-forward="false" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogoDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vision.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="376">
           <caret line="123" column="54" lean-forward="false" selection-start-line="109" selection-start-column="4" selection-end-line="123" selection-end-column="54" />
           <folding>
             <element signature="e#611#620#0" expanded="true" />
@@ -295,29 +340,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TextDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ObjectDetection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogoDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="98" lean-forward="true" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCVLabelDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="30" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceDetection.py">
+    <entry file="file://$PROJECT_DIR$/AWSLabelDetection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1183">
-          <caret line="92" column="74" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="74" />
+        <state relative-caret-position="-504">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCVFaceDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="82" column="44" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWSFaceDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

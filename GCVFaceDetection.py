@@ -4,7 +4,7 @@ import os
 
 #imageNames = ['saurav.jpg', 'scenery.jpg','emotions.jpg','text.jpg']
 
-dir_path = os.path.dirname(os.path.realpath(__file__))+'/resources/facedataset/s1/'
+dir_path = os.path.dirname(os.path.realpath(__file__))+'/resources/facedataset/s2/'
 
 total_time=0.00
 noOfImages=0

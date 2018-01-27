@@ -79,6 +79,25 @@ in other hand with large image and with proper brightness success rate 98%
 
 
 
+text detection  dataset (https://github.com/cs-chan/Total-Text-Dataset)
+-------------------------------------------
+*************** Analysis Details: all together *************
+
+ Number of Image: 20
+
+ Total Word in DB: 97
+
+ Total Word Found: 29
+
+ Success Rate: 29 %
+
+ Total Time needed to analysis 20 images: 51.81125 seconds, 
+  Average: 2.5905625 Sec/image
+
+Comment: Text only can detect if its in straight line and with formal font
+
+
+
 google cant recognise person
 https://www.zaizi.com/blog/aws-google-and-microsoft-vision-api-comparison-0
 
