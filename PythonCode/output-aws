@@ -1,0 +1,71 @@
+Label Detection
+----------------------------------------
+
+ *************** Analysis Details: barrel *************
+
+ Number of Image: 47
+
+ Found barrel in image: 24 times
+ success rate: 51%
+
+ Total Time needed to analysis 47 images: 54.140623 seconds, 
+  Average: 1.15192814894 Sec/image
+
+ Not Found Image list ['image_0003.jpg', 'image_0004.jpg', 'image_0007.jpg', 'image_0009.jpg', 'image_0010.jpg', 'image_0016.jpg', 'image_0017.jpg', 'image_0018.jpg', 'image_0022.jpg', 'image_0023.jpg', 'image_0024.jpg', 'image_0026.jpg', 'image_0027.jpg', 'image_0029.jpg', 'image_0030.jpg', 'image_0031.jpg', 'image_0033.jpg', 'image_0034.jpg', 'image_0035.jpg', 'image_0039.jpg', 'image_0042.jpg', 'image_0044.jpg', 'image_0045.jpg']
+
+
+*************** Analysis Details: ant *************
+
+ Number of Image: 42
+
+ Found ant in image: 21 times
+ success rate: 50%
+
+ Total Time needed to analysis 42 images: 51.115764 seconds, 
+  Average: 1.217042 Sec/image
+
+ Not Found Image list ['image_0003.jpg', 'image_0005.jpg', 'image_0008.jpg', 'image_0011.jpg', 'image_0013.jpg', 'image_0014.jpg', 'image_0015.jpg', 'image_0016.jpg', 'image_0017.jpg', 'image_0018.jpg', 'image_0019.jpg', 'image_0020.jpg', 'image_0021.jpg', 'image_0022.jpg', 'image_0023.jpg', 'image_0026.jpg', 'image_0027.jpg', 'image_0029.jpg', 'image_0032.jpg', 'image_0036.jpg', 'image_0038.jpg']
+
+ *************** Analysis Details: airplane *************
+
+ Number of Image: 24
+
+ Found airplane in image: 24 times
+ success rate: 100%
+
+ Total Time needed to analysis 24 images: 47.238002 seconds, 
+  Average: 1.96825008333 Sec/image
+
+ Not Found Image list []
+
+
+Face Detection
+-------------------------------------------------
+Dataset face S1
+
+ *************** Analysis Details:  *************
+
+ Number of Image: 1
+
+ No of Face found: 100 times
+success rate: 25%
+
+ Total Time needed to analysis 1 images: 11.083481 seconds, 
+  Average: 11.083481 Sec/image
+
+ Not Found Image list []
+
+
+*************** Analysis Details:  *************
+
+ Number of Image: 18
+
+ No of Face found: 17 times
+success rate: 94%
+
+ Total Time needed to analysis 18 images: 25.317369 seconds, 
+  Average: 1.4065205 Sec/image
+
+ Not Found Image list ['yaleB11_P00A-050E-40.jpg']
+
+

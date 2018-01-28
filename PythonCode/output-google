@@ -1,0 +1,104 @@
+Object / Label Detection
+--------------------------------------------------------
+
+*************** Analysis Details: barrel *************
+
+ Number of Image: 47
+
+ Found barrel in image: 22 times
+success rate: 46%
+
+ Total Time needed to analysis 47 images: 65.135466 seconds, 
+  Average: 1.38586097872 Sec/image
+
+ Not Found Image list ['image_0039.jpg', 'image_0027.jpg', 'image_0037.jpg', 'image_0023.jpg', 'image_0003.jpg', 'image_0022.jpg', 'image_0042.jpg', 'image_0001.jpg', 'image_0038.jpg', 'image_0033.jpg', 'image_0017.jpg', 'image_0026.jpg', 'image_0008.jpg', 'image_0045.jpg', 'image_0030.jpg', 'image_0004.jpg', 'image_0006.jpg', 'image_0021.jpg', 'image_0016.jpg', 'image_0035.jpg', 'image_0018.jpg', 'image_0041.jpg', 'image_0044.jpg', 'image_0029.jpg', 'image_0009.jpg']
+
+
+*************** Analysis Details: ant *************
+
+ Number of Image: 42
+
+ Found ant in image: 27 times
+ success rate: 64%
+
+ Total Time needed to analysis 42 images: 57.948087 seconds, 
+ Average: 1.37971635714 Sec/image
+
+ Not Found Image list ['image_0015.jpg', 'image_0023.jpg', 'image_0022.jpg', 'image_0040.jpg', 'image_0038.jpg', 'image_0017.jpg', 'image_0026.jpg', 'image_0008.jpg', 'image_0011.jpg', 'image_0010.jpg', 'image_0005.jpg', 'image_0021.jpg', 'image_0016.jpg', 'image_0014.jpg', 'image_0009.jpg']
+
+
+
+
+
+*************** Analysis Details: airplane *************
+
+ Number of Image: 24
+
+ Found airplane in image: 24 times
+success rate: 100%
+
+ Total Time needed to analysis 24 images: 30.860615 seconds, 
+  Average: 1.28585895833 Sec/image
+
+Comment: images that are hand drawing failed to detect
+
+Face Detection
+---------------------------------
+S1 set result
+-------------
+*************** Analysis Details:  *************
+
+ Number of Image: 1
+
+ Number of Face found: 10 times
+success rate: 2%
+
+ Total Time needed to analysis 1 images: 18.726734 seconds, 
+  Average: 18.726734 Sec/image
+
+
+
+S2 set result
+-------------
+*************** Analysis Details:  *************
+
+
+ Number of Image: 18
+
+ Number of Face found: 17 times
+success rate: 94%
+
+ Total Time needed to analysis 18 images: 24.133079 seconds, 
+  Average: 1.34072661111 Sec/image
+
+ Not Found Image list ['yaleB11_P00A-050E-40.jpg']
+
+
+Comment: for small size of image (like 47 x 57 pix) face detection success rate is 2%. In low light face detection is also poor. 
+in other hand with large image and with proper brightness success rate 98%
+
+
+
+text detection  dataset (https://github.com/cs-chan/Total-Text-Dataset)
+-------------------------------------------
+*************** Analysis Details: all together *************
+
+ Number of Image: 20
+
+ Total Word in DB: 97
+
+ Total Word Found: 29
+
+ Success Rate: 29 %
+
+ Total Time needed to analysis 20 images: 51.81125 seconds, 
+  Average: 2.5905625 Sec/image
+
+Comment: Text only can detect if its in straight line and with formal font
+
+
+
+google cant recognise person
+https://www.zaizi.com/blog/aws-google-and-microsoft-vision-api-comparison-0
+
+Landmark dataset 5GB: http://landmark.cs.cornell.edu/#landmarks10k
