@@ -16,7 +16,7 @@ As JSON request Model is:
 	"bucketName": "S3BucketName"
 }
 ### Add UserProfile name.
-On ECAssignmentApplication.java User user profile name configured using CLI profile configuration instructions of AWS.
+On ECAssignmentApplication.java use userprofile name configured using CLI profile configuration instructions of AWS.
 ## Authors
 Prateek Narula - Initial work
 
