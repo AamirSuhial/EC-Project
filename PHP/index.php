@@ -6,6 +6,7 @@ if(isset($_POST['submit']) && !empty($_POST['image_url']) ){
 	$key = 'a629614d2e5845bbb45a46415143d74c';
 
 	$ar =	array("inputs" => array("data" => array("image" => array("url" => "$image_url"))));
+	
 	$data=  '{
 		"inputs": [
 		  {
