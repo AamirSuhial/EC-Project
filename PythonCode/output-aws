@@ -69,3 +69,22 @@ success rate: 94%
  Not Found Image list ['yaleB11_P00A-050E-40.jpg']
 
 
+Text Detection
+-----------------------------------
+ *************** Analysis Details: all together *************
+
+ Number of Image: 20
+
+ Total Word in DB: 98
+
+ Total Word Found: 47
+
+ Success Rate: 47 %
+
+ Total Time needed to analysis 20 images: 32.987541 seconds, 
+  Average: 1.64937705 Sec/image
+
+ No Text Found Image list []
+
+
+
